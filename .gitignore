@@ -1,0 +1,9 @@
+.claude/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
+dimos-intent-model/model.safetensors
+pipeline/run_full_eval.py
