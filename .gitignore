@@ -8,4 +8,7 @@ Thumbs.db
 dimos-intent-model/model.safetensors
 pipeline/run_full_eval.py
 results.csv
+results/
 eval_bert.py
+dimos-intent-model-distilbert/
+dimos-intent-model-distilbert.zip
