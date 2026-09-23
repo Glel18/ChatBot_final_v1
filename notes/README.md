@@ -17,14 +17,14 @@ Running log of what we build, fix, and find while testing the pipeline in `pipel
   from `open-weakpoints.md` (known issues in what's shipped) — this is the
   record of dead ends, so the reasoning behind them isn't lost once the code
   moves past them.
-- `integration-guide.md` — everything someone building step 6 (the GUI) needs
-  to know that isn't obvious from the pipeline's function signatures alone:
-  setup, latency/async, error handling, where the known-limitations list is.
-- `pipeline-overview.md` — first-read introduction to `pipeline/`: what each
-  `.py` file does, how a message flows through the 5 steps, and the design
-  principles that explain most of the code. Start here if you're new.
 
 Numbering in `fix-NNN` is chronological order, not severity.
+
+`pipeline/` work is paused as of 2026-08-14, pending a better BERT model for
+the other implementation (`connector.py`/`dimos-intent-model`). The
+`integration-guide.md` and `pipeline-overview.md` docs that used to live here
+were removed along with that pause -- the `fix-NNN` entries below remain the
+record of what was built and why.
 
 ## Index of fix-NNN entries
 

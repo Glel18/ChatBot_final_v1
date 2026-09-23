@@ -44,14 +44,13 @@ Full setup, latency notes, and known limitations are in
 ## Project layout
 
 - `gui.py`, `connector.py` — the live desktop GUI (pywebview) and its backend.
-- `pipeline/` — the new rule/gazetteer/LLM pipeline (see
-  [`notes/pipeline-overview.md`](notes/pipeline-overview.md) for a file-by-file walkthrough).
+- `pipeline/` — the new rule/gazetteer/LLM pipeline; paused for now (see
+  [`notes/README.md`](notes/README.md) for the build history).
 - `data/` — the crawled service catalog and crawler resume state.
 - `crawler_script.py`, `checker.py`, `checker_master.py`, `url_validator.py`,
   `Makefile` — tools for (re)building and validating `data/heraklion_eservices.json`.
 - `dimos-intent-model/`, `prakt_train_0.ipynb`, `Expanded_Intent_Dataset_2.csv`,
   `benchmark_embeddings.py` — the BERT intent model `connector.py` uses, its
   training notebook/dataset, and a TF-IDF-vs-embeddings comparison.
-- `notes/` — build history, fix-by-fix reasoning, and the GUI integration guide.
-  Start with [`notes/README.md`](notes/README.md) or
-  [`notes/pipeline-overview.md`](notes/pipeline-overview.md).
+- `notes/` — build history and fix-by-fix reasoning for `pipeline/`.
+  Start with [`notes/README.md`](notes/README.md).
